@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd0efccb-7d96-44ea-893f-a7599a2dc5b3" name="Default Changelist" comment="" />
+    <list default="true" id="dd0efccb-7d96-44ea-893f-a7599a2dc5b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PHPForBeginners/Lecture1/blank.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TheJoyOfPHP/Archive/editcars.php" beforeDir="false" afterPath="$PROJECT_DIR$/TheJoyOfPHP/Archive/editcars.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/edit.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +31,29 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PHPForBeginners/Lecture1/blank.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>table</find>
       <find>tr</find>
       <find>&lt;</find>
+      <find>cars</find>
+      <find>vin</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,10 +79,17 @@
         <option value="$PROJECT_DIR$/Submit_Edit.php" />
         <option value="$PROJECT_DIR$/SubmitForm.php" />
         <option value="$PROJECT_DIR$/modify.php" />
-        <option value="$PROJECT_DIR$/edit.php" />
         <option value="$PROJECT_DIR$/TheJoyOfPHP/SubmitForm.php" />
         <option value="$PROJECT_DIR$/TheJoyOfPHP/Select_Cars.php" />
         <option value="$PROJECT_DIR$/TheJoyOfPHP/edit.php" />
+        <option value="$PROJECT_DIR$/TheJoyOfPHP/footer.php" />
+        <option value="$PROJECT_DIR$/TheJoyOfPHP/CreateDB.php" />
+        <option value="$PROJECT_DIR$/TheJoyOfPHP/deletecars.php" />
+        <option value="$PROJECT_DIR$/TheJoyOfPHP/viewcars.php" />
+        <option value="$PROJECT_DIR$/TheJoyOfPHP/editcars.php" />
+        <option value="$PROJECT_DIR$/edit.php" />
+        <option value="$PROJECT_DIR$/TheJoyOfPHP/viewcar.php" />
+        <option value="$PROJECT_DIR$/PHPForBeginners/Lecture1/blank.php" />
       </list>
     </option>
   </component>
@@ -83,12 +110,13 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="38" />
     <option name="y" value="37" />
     <option name="width" value="1119" />
     <option name="height" value="926" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -113,12 +141,13 @@
             <path>
               <item name="Slim" type="b2602c69:ProjectViewProjectNode" />
               <item name="Slim" type="462c0819:PsiDirectoryNode" />
-              <item name="TheJoyOfPHP" type="462c0819:PsiDirectoryNode" />
+              <item name="PHPForBeginners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Slim" type="b2602c69:ProjectViewProjectNode" />
               <item name="Slim" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
+              <item name="PHPForBeginners" type="462c0819:PsiDirectoryNode" />
+              <item name="Lecture1" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -128,6 +157,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -135,10 +165,12 @@
     <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\Slim" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Slim\TheJoyOfPHP\Archive" />
+      <recent name="C:\wamp64\www\Slim\TheJoyOfPHP\Archive\pics" />
       <recent name="C:\wamp64\www\Slim" />
     </key>
   </component>
@@ -214,16 +246,18 @@
       <workItem from="1565560514536" duration="229000" />
       <workItem from="1565597689517" duration="18781000" />
       <workItem from="1565683815033" duration="3431000" />
+      <workItem from="1565688415038" duration="13297000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33829000" />
+    <option name="totallyTimeSpent" value="47126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2531983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -271,9 +305,7 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Calculate_Age.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Calculate_Age.php" />
     <entry file="file://$USER_HOME$/PhpstormProjects/PHPTest1/Switch" />
     <entry file="file://$USER_HOME$/PhpstormProjects/PHPTest1/Twig" />
     <entry file="file://$USER_HOME$/PhpstormProjects/PHPTest1/Twig.php" />
@@ -284,116 +316,18 @@
     <entry file="file://$USER_HOME$/PhpstormProjects/PHPTest1/Select_Cars" />
     <entry file="file://$USER_HOME$/PhpstormProjects/PHPTest1/db" />
     <entry file="file://$USER_HOME$/PhpstormProjects/PHPTest1/Select_Cars.php" />
-    <entry file="file://$PROJECT_DIR$/db.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/db.php" />
+    <entry file="file://$PROJECT_DIR$/Index.php" />
     <entry file="file://$PROJECT_DIR$/vendor/deletecar.php" />
-    <entry file="file://$PROJECT_DIR$/Test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit.php" />
+    <entry file="file://$PROJECT_DIR$/Test.php" />
+    <entry file="file://$PROJECT_DIR$/autoload.php" />
     <entry file="file://$PROJECT_DIR$/Submit_Edit.php" />
-    <entry file="file://$PROJECT_DIR$/deletecar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="22" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/viewcar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Select_Cars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="57" column="1" lean-forward="true" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-          <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding>
-            <element signature="e#999#1005#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modify.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubmitCar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="569">
-          <caret line="35" selection-start-line="35" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SubmitForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#430#436#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/viewcar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/SubmitCar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/SubmitForm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="4" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/deletecar.php" />
+    <entry file="file://$PROJECT_DIR$/viewcar.php" />
+    <entry file="file://$PROJECT_DIR$/Select_Cars.php" />
+    <entry file="file://$PROJECT_DIR$/modify.php" />
+    <entry file="file://$PROJECT_DIR$/SubmitCar.php" />
+    <entry file="file://$PROJECT_DIR$/SubmitForm.php" />
     <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/modify.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -426,6 +360,101 @@
             <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/Archive/CreateDB.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-771">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/Archive/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/Archive/viewcar.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/Archive/Select_Cars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="103" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/Archive/deletecars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/SubmitForm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="10" lean-forward="true" selection-start-line="6" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/SubmitCar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/Archive/editcars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/Archive/viewcar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TheJoyOfPHP/Archive/viewcars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PHPForBeginners/Lecture1/blank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

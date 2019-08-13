@@ -2,7 +2,7 @@
 <head>
     <title>Misho's Used cars</title>
     <h1>Misho's Used Cars Edit Entries</h1>
-    <form action="SubmitCar.php" method="post">
+    <form action="../SubmitCar.php" method="post">
         VIN:<input name="VIN" type="text"/><br/>
         <br/>
         Make:<input name="Make" type="text"/><br/>
