@@ -1,23 +1,34 @@
 <html>
 <head>
-    <title>Misho's Used Cars</title>
+    <title>Misho's Used cars</title>
+    <h1>Misho's Used Cars Edit Entries</h1>
+    <form action="SubmitCar.php" method="post">
+        VIN:<input name="VIN" type="text"/><br/>
+        <br/>
+        Make:<input name="Make" type="text"/><br/>
+        <br/>
+        Model:<input name="Model" type="text"/><br/>
+        <br/>
+        Price:<input name="Price" type="text"/><br/>
+        <br/>
+        <input name="Submit1" type="submit" value="Change"/><br/>
+        &nbsp;
+    </form>
 </head>
-
 <body>
 
-<h1>Misho's Used Cars Details page</h1>
 <?php
-include 'db.php';
+include "db.php";
 $vin = $_GET['VIN'];
 $query = "SELECT * FROM INVENTORY WHERE VIN = '$vin'";
 /* Try to query the Database */
-if ($result = $mysqli->query($query)){
+if ($result = $mysqli->query($query)) {
     // Don't do anything if successful
-}else{
-    echo "Sorry, a vehicle with VIN $vin cannot be found." . mysqli_error()."<br>";
+} else {
+    echo "Sorry, a vehicle with VIN $vin cannot be found." . mysqli_error() . "<br>";
 }
 // Loop through the returned row of the query
-while($result_ar = mysqli_fetch_assoc($result)){
+while ($result_ar = mysqli_fetch_assoc($result)) {
     $year = $result_ar['YEAR'];
     $make = $result_ar['Make'];
     $model = $result_ar['Model'];
@@ -29,21 +40,17 @@ while($result_ar = mysqli_fetch_assoc($result)){
     $price = $result_ar['ASKING_PRICE'];
 }
 
-echo "$year $make $model </p>";
+echo "Current Entries for <b>$year $make $model.</b></p>";
 echo "<p>Asking Price: $price </p>";
 echo "<p>Exterior Color: $color </p>";
 echo "<p>Interior Color: $interior</p>";
 echo "<p>Mileage: $mileage </p>";
 echo "<p>Transmission: $transmission</p>";
 
-$query = "SELECT * FROM images WHERE VIN ='$vin'";
-if ($result = $mysqli->query($query)){
-    while ($result_ar=mysqli_fetch_assoc($result)){
-        $image = $result_ar["ImageFile"];
-        echo "<img src='pics/$image' width='250'>";
-    }
-}
+
 $mysqli->close()
 ?>
 </body>
+
+
 </html>

@@ -1,11 +1,9 @@
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>Misho's Used Cars</title>
     <style>
-        /* The grid is used to format a table */
+        /* The grid is used to format the tab;e */
         #Grid {
-            font-family: "Trebuchet MS", Arial, Helvetica . sans-serif;
+            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
             width: 80%;
             border-collapse: collapse;
             margin-left: auto;
@@ -42,49 +40,53 @@
             background-color: teal;
         }
     </style>
+    <meta charset="utf-8">
+    <title> Misho's Used Cars</title>
 </head>
 
 <body>
 <h1>Misho's Used Cars</h1>
 <h3>Complete Inventory</h3>
 <?php
-include 'db.php';
+include "db.php";
 $query = "SELECT * FROM INVENTORY";
-/* Try to query the Database */
+
+// Try to query the Database
 if ($result = $mysqli->query($query)) {
     // Don't do anything if successful
 } else {
-    echo "Error getting cars from the Database:" . mysqli_error() . "<br>";
+    echo "Error getting in the Database" . mysqli_error() . "<br>";
 }
 
 // Create the table headers
-echo "<table id='Grid' style='width: 80%'><tr>";
-echo "<th style='width: 50px'>Make</th>";
-echo "<th style='width: 50px'>Model</th>";
-echo "<th style='width: 50px'>Asking Price</th>";
-echo "<th style='width: 50px'>Options</th>";
+
+echo "<table id='Grid' style='width:80%'><tr>";
+echo "<th style = 'width:50px'>Make</th>";
+echo "<th style = 'width:50px'>Model</th>";
+echo "<th style = 'width:50px'>Asking Price</th>";
+echo "<th style = 'width:50px'>Delete</th>";
+echo "<th style = 'width:50px'>Edit</th>";
 echo "</tr>\n";
 
-$class = "odd"; //Keep track of whether a row was even or odd, so it can be styled later
+$class = 'odd'; // Keep track of whether the row is even or odd for additional formatting
 
-//Loop trough all the rows returned by the query, creating a table row for each
+// Loop through all rows returned by the query, creating a table row for each
 while ($result_ar = mysqli_fetch_assoc($result)) {
     echo "<tr class=\"$class\">";
     echo "<td><a href='viewcar.php?VIN=" . $result_ar['VIN'] . "'>" . $result_ar['Make'] . "</a></td>";
     echo "<td>" . $result_ar['Model'] . "</td>";
     echo "<td>" . $result_ar['ASKING_PRICE'] . "</td>";
-    echo "<td><a href='deletecar.php?VIN=" . $result_ar['VIN'] . "'>" . "Delete" . "<br><a href = 'edit.php?VIN=" . $result_ar['VIN'] . "' >" . "Edit" . "</a></td>";
+    echo "<td><a href='deletecars.php?VIN=" . $result_ar['VIN'] . "'>" . "Delete entry" . "</a></td>"."<td><a href='editcars.php?VIN=" . $result_ar['VIN'] . "'>" . "Edit entry" . "</a></td>";
     echo "</td></tr>\n";
-
-    // If the last row was even, make the next one odd and vice-versa
-    if ($class == "odd") {
+// If the last row was even, make the next one odd and vice-versa
+    if ($class == 'odd') {
         $class = 'even';
     } else {
         $class = 'odd';
     }
 }
 echo "</table>";
-$mysqli->close();
+$mysqli->close()
 ?>
 </body>
 </html>
